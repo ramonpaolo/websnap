@@ -2,6 +2,8 @@
 
 Screenshots reais de qualquer URL, direto no navegador. O app inteiro vive em um único `index.html`, sem backend próprio, sem build e sem cadastro.
 
+**Demo em produção:** [websnap.clients.zenifra.com](https://websnap.clients.zenifra.com)
+
 ![WebSnap](docs/screenshot.png)
 
 ## O que ele faz
