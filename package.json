@@ -1,0 +1,13 @@
+{
+  "name": "websnap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Capturador de sites em um único index.html, com screenshots reais e três motores de captura.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
