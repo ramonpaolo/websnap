@@ -2,7 +2,7 @@
 
 Screenshots reais de qualquer URL, direto no navegador. O app inteiro vive em um único `index.html`, sem backend próprio, sem build e sem cadastro.
 
-[![Deploy na Zenifra](https://docs.zenifra.com/badge/deploy-pt.svg)](https://console.zenifra.com/deploy?repository=https://github.com/ramonpaolo/websnap&port=3000)
+[![Deploy na Zenifra](https://docs.zenifra.com/badge/deploy-pt.svg)](https://console.zenifra.com/deploy?repository=https://github.com/ramonpaolo/websnap&port=3000&name=websnap&branch=main&runtime=nodejs&version=22&start=npm%20start)
 [![Hospedado na Zenifra](https://img.shields.io/badge/hospedado%20na-Zenifra-13f4b0?style=flat-square)](https://websnap.clients.zenifra.com)
 
 **Hospedado na Zenifra:** [websnap.clients.zenifra.com](https://websnap.clients.zenifra.com)
@@ -11,12 +11,12 @@ Screenshots reais de qualquer URL, direto no navegador. O app inteiro vive em um
 
 ## Deploy na Zenifra
 
-O botão acima abre o Console da Zenifra com **este repositório** e a **porta 3000** já preenchidos. Você faz login, revisa nome, plano e configurações e confirma a criação — nada é criado apenas por abrir o link.
+O botão acima abre o Console da Zenifra com **repositório, porta, nome, branch, runtime, versão e comando de start** já preenchidos. Você faz login, revisa o plano e confirma — nada é criado apenas por abrir o link.
 
 - **App em produção:** [websnap.clients.zenifra.com](https://websnap.clients.zenifra.com)
 - **Documentação do botão:** [Deploy na Zenifra](https://docs.zenifra.com/pt/docs/deploy/deploy-button)
 
-O repositório é público, então o deploy não exige conectar sua conta GitHub. O build usa o runtime Node da Zenifra (`npm start`); o `Dockerfile` serve para self-hosting fora da plataforma. Um projeto criado pelo botão usa deploy manual; para atualizar a cada push, conecte o GitHub no Console depois.
+O WebSnap não tem etapa de build nem variáveis de ambiente obrigatórias, então esses parâmetros ficam de fora do link. O repositório é público, então o deploy não exige conectar sua conta GitHub. O build usa o runtime Node da Zenifra (`npm start`); o `Dockerfile` serve para self-hosting fora da plataforma. Um projeto criado pelo botão usa deploy manual; para atualizar a cada push, conecte o GitHub no Console depois.
 
 ## O que ele faz
 
