@@ -2,12 +2,21 @@
 
 Screenshots reais de qualquer URL, direto no navegador. O app inteiro vive em um único `index.html`, sem backend próprio, sem build e sem cadastro.
 
+[![Deploy na Zenifra](https://docs.zenifra.com/badge/deploy-pt.svg)](https://console.zenifra.com/deploy?repository=https://github.com/ramonpaolo/websnap&port=3000)
 [![Hospedado na Zenifra](https://img.shields.io/badge/hospedado%20na-Zenifra-13f4b0?style=flat-square)](https://websnap.clients.zenifra.com)
-[![Publish container image](https://github.com/ramonpaolo/websnap/actions/workflows/publish-image.yml/badge.svg)](https://github.com/ramonpaolo/websnap/actions/workflows/publish-image.yml)
 
 **Hospedado na Zenifra:** [websnap.clients.zenifra.com](https://websnap.clients.zenifra.com)
 
 ![WebSnap](docs/screenshot.png)
+
+## Deploy na Zenifra
+
+O botão acima abre o Console da Zenifra com **este repositório** e a **porta 3000** já preenchidos. Você faz login, revisa nome, plano e configurações e confirma a criação — nada é criado apenas por abrir o link.
+
+- **App em produção:** [websnap.clients.zenifra.com](https://websnap.clients.zenifra.com)
+- **Documentação do botão:** [Deploy na Zenifra](https://docs.zenifra.com/pt/docs/deploy/deploy-button)
+
+O repositório é público, então o deploy não exige conectar sua conta GitHub. O build usa o runtime Node da Zenifra (`npm start`); o `Dockerfile` serve para self-hosting fora da plataforma. Um projeto criado pelo botão usa deploy manual; para atualizar a cada push, conecte o GitHub no Console depois.
 
 ## O que ele faz
 
